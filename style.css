@@ -1,0 +1,44 @@
+body{
+    background-color: lightgrey;
+}
+.text-area{
+text-align: center;
+margin-top: 70px;
+margin-bottom: 70px;
+}
+.text1{
+    font-size: 45px;
+    color: brown;
+    font-weight: bold;
+    border-bottom: 3px solid #222;
+}
+.container .box{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+.container .box .dream{
+display: flex;
+flex-direction: column;
+width: 32.5%;
+}
+.container .box .dream img{
+padding-bottom: 15px;
+border-radius: 5px;
+width: 100%;
+}
+.container .btn{
+margin: 20px 0 20px 0;
+background: grey;
+padding: 10px 10px;
+border-radius: 5px;
+}
+.container .btn a{
+color: black;
+font-size: 1.2em;
+text-decoration: none;
+font-weight: bolder;
+letter-spacing: 3px;
+text-align: center;
+}
